@@ -2,7 +2,7 @@
 	"name": "DimCompany",
 	"properties": {
 		"linkedServiceName": {
-			"referenceName": "sql_datalab3_kubrick",
+			"referenceName": "AzureSqlDatabase1",
 			"type": "LinkedServiceReference"
 		},
 		"annotations": [],
@@ -45,7 +45,7 @@
 			}
 		],
 		"typeProperties": {
-			"schema": "dportas",
+			"schema": "hcrossman",
 			"table": "dimcompany"
 		}
 	},
